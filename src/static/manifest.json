@@ -13,6 +13,15 @@
     "default_title": "React Extension",
     "default_icon": "icon-temp.png"
   },
-  "options_page": "options.html"
+  "options_page": "options.html",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["contentScript.js"]
+    }
+  ]
 
 }

@@ -7,4 +7,3 @@ const test = <img src="icon-temp.png"/>
 const root = document.createElement('div')
 document.body.appendChild(root)
 ReactDOM.createRoot(root).render(test)
-
