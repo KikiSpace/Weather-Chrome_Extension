@@ -3,6 +3,7 @@
   "name": "React Extension",
   "description": "Chrome Extension in React!",
   "version": "1.0.1",
+  "permissions": ["storage"],
   "icons": {
     "16": "icon-temp.png",
     "48": "icon-temp.png",
